@@ -1,45 +1,46 @@
-<section class="py-24 px-6 md:px-12 max-w-7xl mx-auto bg-[#EAEAE8]">
+<section class="py-24 px-6 md:px-12 max-w-7xl mx-auto bg-gray-50" id="vision">
 	<div class="text-center mb-16">
 		<span class="font-mono text-[10px] text-gray-500 uppercase tracking-widest mb-4 block">
-			[ DATA-DRIVEN RESULTS ]
+			[ PROVEN RESULTS ]
 		</span>
 		<h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 mb-8">
-			Merge PRs faster with Greptile.
+			Hunt smarter with HuntIQ.
 		</h2>
-		<button class="bg-black text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors inline-flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
-			<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-			View performance data
-		</button>
+		<p class="font-mono text-sm text-gray-600 max-w-2xl mx-auto">
+			Early beta users report significant improvements in hunting success and time efficiency.
+		</p>
 	</div>
 
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 		<!-- Chart 1 -->
-		<div class="bg-[#F3F3F1] p-6 rounded-lg border border-gray-200">
-			<h3 class="font-mono text-xs text-gray-500 uppercase mb-8">Median Time to Merge Comparison</h3>
+		<div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+			<h3 class="font-mono text-xs text-gray-500 uppercase mb-8">Success Rate Comparison</h3>
 			<div class="h-64 relative flex items-end justify-center gap-16 pb-8">
 				<!-- Bar 1 -->
 				<div class="flex flex-col items-center gap-2 group">
-					<span class="text-xs text-gray-500 font-mono mb-1 group-hover:text-gray-900">Without Greptile</span>
-					<div class="w-16 bg-gray-300 rounded-t h-48 relative group-hover:bg-gray-400 transition-colors"></div>
-					<span class="font-display text-xl font-medium">20 hrs</span>
+					<span class="text-xs text-gray-500 font-mono mb-1 group-hover:text-gray-900">Traditional Methods</span>
+					<div class="w-16 bg-gray-300 rounded-t h-32 relative group-hover:bg-gray-400 transition-colors"></div>
+					<span class="font-display text-xl font-medium">22%</span>
 				</div>
 				
 				<!-- Bar 2 -->
 				<div class="flex flex-col items-center gap-2 group">
-					<span class="text-xs text-brand-green font-mono mb-1 font-bold">WITH GREPTILE</span>
-					<div class="w-16 bg-brand-green rounded-t h-12 relative group-hover:bg-brand-green-hover transition-colors">
+					<span class="text-xs text-primary-600 font-mono mb-1 font-bold">WITH HUNTIQ</span>
+					<div class="w-16 bg-primary-500 rounded-t h-48 relative group-hover:bg-primary-600 transition-colors">
                         <div class="absolute -top-8 left-1/2 -translate-x-1/2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="text-brand-green"><path d="M12 2L15 8L21 9L17 14L18 20L12 17L6 20L7 14L3 9L9 8L12 2Z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="text-primary-500">
+								<path d="M12 2L13.2 9.92154L20.6603 7L14.4 12L20.6603 17L13.2 14.0785L12 22L10.8 14.0785L3.33975 17L9.6 12L3.33975 7L10.8 9.92154L12 2Z" fill="currentColor" />
+							</svg>
                         </div>
                     </div>
-					<span class="font-display text-xl font-medium text-brand-green">1.8 hrs</span>
+					<span class="font-display text-xl font-medium text-primary-600">71%</span>
 				</div>
 			</div>
 		</div>
 
 		<!-- Chart 2 -->
-		<div class="bg-[#F3F3F1] p-6 rounded-lg border border-gray-200">
-			<h3 class="font-mono text-xs text-gray-500 uppercase mb-8">Team Size vs Merge Time</h3>
+		<div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+			<h3 class="font-mono text-xs text-gray-500 uppercase mb-8">Scouting Time Saved</h3>
 			<div class="h-64 relative w-full">
                 <!-- Simple SVG Line Chart -->
                 <svg viewBox="0 0 300 200" class="w-full h-full overflow-visible">
@@ -47,19 +48,25 @@
                     <line x1="0" y1="200" x2="300" y2="200" stroke="#ddd" stroke-width="1" />
                     <line x1="0" y1="0" x2="0" y2="200" stroke="#ddd" stroke-width="1" />
                     
-                    <!-- Line 1: Without Greptile (Increasing) -->
-                    <path d="M0,180 Q100,150 150,100 T300,20" fill="none" stroke="#9CA3AF" stroke-width="2" stroke-dasharray="4 4" />
-                    <text x="200" y="60" font-family="monospace" font-size="10" fill="#6B7280">Without Greptile</text>
+                    <!-- Line 1: Without HuntIQ (High time investment) -->
+                    <path d="M0,40 Q75,35 150,45 T300,50" fill="none" stroke="#9CA3AF" stroke-width="2" stroke-dasharray="4 4" />
+                    <text x="180" y="30" font-family="monospace" font-size="10" fill="#6B7280">Traditional Scouting</text>
                     
-                    <!-- Line 2: With Greptile (Flat/Low) -->
-                    <path d="M0,190 Q100,185 150,180 T300,170" fill="none" stroke="#009045" stroke-width="2" />
-                    <text x="200" y="160" font-family="monospace" font-size="10" fill="#009045" font-weight="bold">WITH GREPTILE</text>
+                    <!-- Line 2: With HuntIQ (Low time investment) -->
+                    <path d="M0,160 Q75,155 150,150 T300,145" fill="none" stroke="oklch(0.666 0.179 58.318)" stroke-width="2" />
+                    <text x="180" y="130" font-family="monospace" font-size="10" fill="oklch(0.666 0.179 58.318)" font-weight="bold">WITH HUNTIQ</text>
                 </svg>
 			</div>
             <div class="flex justify-between mt-4 text-[10px] text-gray-400 font-mono uppercase">
-                <span>Team Size -></span>
-                <span>Merge Time -></span>
+                <span>Season Progress -></span>
+                <span>Hours Spent -></span>
             </div>
 		</div>
+	</div>
+
+	<div class="mt-12 text-center">
+		<a href="#early-access" class="bg-black text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors inline-flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
+			Join the Beta ->
+		</a>
 	</div>
 </section>

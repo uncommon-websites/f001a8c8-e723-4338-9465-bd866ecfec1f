@@ -1,21 +1,37 @@
-<section class="py-24 px-6 md:px-12 max-w-7xl mx-auto">
+<section class="py-24 px-6 md:px-12 max-w-7xl mx-auto bg-white">
 	<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
 		<div>
 			<span class="font-mono text-[10px] text-gray-500 uppercase tracking-widest mb-4 block">
-				[ SECURITY ]
+				[ YOUR DATA, YOUR SPOTS ]
 			</span>
 			<h2 class="font-display text-4xl md:text-5xl font-medium tracking-tight text-gray-900">
-				Security-First Design
+				Privacy-First Platform
 			</h2>
 		</div>
 		
-		<button class="bg-black text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
-			View our security policy ->
-		</button>
+		<a href="#faq" class="bg-black text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 font-mono uppercase tracking-wide text-xs">
+			Privacy Details ->
+		</a>
 	</div>
 
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-		<div class="bg-[#F3F3F1] p-12 rounded-lg border border-gray-200 flex flex-col items-center text-center hover:bg-[#EAEAE8] transition-colors">
+		<div class="bg-gray-50 p-12 rounded-lg border border-gray-200 flex flex-col items-center text-center hover:bg-gray-100 transition-colors">
+			<div class="w-24 h-24 mb-8 text-gray-400">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" class="w-full h-full">
+					<rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+					<path d="M7 11V7a5 5 0 0 1 10 0v4" />
+				</svg>
+			</div>
+			<div class="flex items-center gap-2 mb-4 text-primary-600">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+				<span class="font-mono text-xs uppercase tracking-widest">YOUR SPOTS STAY SECRET</span>
+			</div>
+			<p class="text-gray-600 text-sm max-w-sm">
+				Your property data and hunting locations are never shared or sold. We use bank-level encryption to protect your spots.
+			</p>
+		</div>
+
+		<div class="bg-gray-50 p-12 rounded-lg border border-gray-200 flex flex-col items-center text-center hover:bg-gray-100 transition-colors">
 			<div class="w-24 h-24 mb-8 text-gray-400">
 				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" class="w-full h-full">
 					<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
@@ -23,28 +39,12 @@
 					<line x1="12" y1="22.08" x2="12" y2="12" />
 				</svg>
 			</div>
-			<div class="flex items-center gap-2 mb-4 text-accent-pink">
-				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19c0-1.7-1.3-3-3-3h-5c-1.7 0-3 1.3-3 3"/><path d="M12 13v-3"/><path d="M12 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>
-				<span class="font-mono text-xs uppercase tracking-widest">SELF-HOSTED DEPLOYMENT</span>
+			<div class="flex items-center gap-2 mb-4 text-primary-600">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+				<span class="font-mono text-xs uppercase tracking-widest">OFFLINE CAPABLE</span>
 			</div>
 			<p class="text-gray-600 text-sm max-w-sm">
-				Deploy in your own air-gapped environment with complete control over your infrastructure. <a href="/" class="underline decoration-gray-400 hover:text-gray-900">Learn more</a>
-			</p>
-		</div>
-
-		<div class="bg-[#F3F3F1] p-12 rounded-lg border border-gray-200 flex flex-col items-center text-center hover:bg-[#EAEAE8] transition-colors">
-			<div class="w-24 h-24 mb-8 text-gray-400">
-				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" class="w-full h-full">
-					<rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-					<path d="M7 11V7a5 5 0 0 1 10 0v4" />
-				</svg>
-			</div>
-			<div class="flex items-center gap-2 mb-4 text-accent-yellow">
-				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-				<span class="font-mono text-xs uppercase tracking-widest">SOC 2 COMPLIANT</span>
-			</div>
-			<p class="text-gray-600 text-sm max-w-sm">
-				All data is encrypted at rest and in transit. We use industry-standard encryption and security practices.
+				Download your hunt plans and access them offline in the field. No signal? No problem. Your data stays on your device.
 			</p>
 		</div>
 	</div>
