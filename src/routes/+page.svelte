@@ -2,6 +2,8 @@
 	import Header from '$lib/components/Header.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Features from '$lib/components/Features.svelte';
+	import FeaturesDetailed from '$lib/components/FeaturesDetailed.svelte';
+	import Pricing from '$lib/components/Pricing.svelte';
 	import CodebaseContext from '$lib/components/CodebaseContext.svelte';
 	import CustomContext from '$lib/components/CustomContext.svelte';
 	import Learning from '$lib/components/Learning.svelte';
@@ -18,6 +20,8 @@
 <main>
 	<Hero />
 	<Features />
+	<FeaturesDetailed />
+	<Pricing />
 	<CodebaseContext />
 	<CustomContext />
 	<Learning />
